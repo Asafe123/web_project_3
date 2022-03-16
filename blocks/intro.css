@@ -1,0 +1,24 @@
+.intro{
+    padding-left:148px;
+    width: 785px;
+}
+.intro__title{
+    font-size: ;
+    padding-bottom: 40px;
+    width: 720px;
+
+    
+}
+.intro__subtitle{
+    width: 720px;
+}
+.intro__quote{
+    width: 720px;
+}
+.intro__cite{
+    width: 720px;
+    text-align: right;
+}
+.intro__description{
+    width: 720px;
+}
