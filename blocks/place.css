@@ -1,12 +1,8 @@
 .place{
-  display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-template-rows: auto auto 1fr;
-  grid-gap: 48px 40px;
-  grid-template-areas:
-    "title website"
-    "image description"
-    "button";
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-gap: 48px 40px;
 }
 .place__title{
     font-family: 'Inter';
@@ -14,14 +10,10 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    align-self: end;
-    /* grid-area: title; */
-    margin: 0 auto;
-
+    margin: 0;
 }
 .place__website{
     align-self: end;
-    /* grid-area: website; */
 }
 
 .place__artist-title{
@@ -32,6 +24,9 @@
     line-height: 15px;
     color: #AAAAAA;
     margin: 0 0 8px 0;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
 }
 .place__artist{
     font-family: 'inter';
@@ -47,9 +42,9 @@
     object-fit: cover;
     overflow:hidden;
 }
-
 .place__paragraph{
     margin-top:0;
+    margin-bottom: 25px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -68,12 +63,9 @@
     padding: 13px 20px; 
     margin-bottom: 80px;
     color: #fff;
-    width: 248px;
+    max-width: 208px;
     height: 22px;
     justify-self: start;
     text-align: center;
     border:none;
-
 }
-.place__button:last-child{
-    margin-bottom: 92px;
