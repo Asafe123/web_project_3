@@ -6,7 +6,7 @@
   grid-template-areas:
     "title website"
     "image description"
-    "button description";
+    "button";
 }
 .place__title{
     font-family: 'Inter';
@@ -15,12 +15,13 @@
     font-size: 72px;
     line-height: 76px;
     align-self: end;
-    grid-area: title;
+    /* grid-area: title; */
     margin: 0 auto;
 
 }
 .place__website{
     align-self: end;
+    /* grid-area: website; */
 }
 
 .place__artist-title{
@@ -40,6 +41,12 @@
     line-height: 22px;
     margin: 0;
 }
+.place__image{
+    width: 460px;
+    height: 460px;
+    object-fit: cover;
+    overflow:hidden;
+}
 
 .place__paragraph{
     margin-top:0;
@@ -48,6 +55,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
+    max-width: 484px;
 }
 .place__button{
     font-family: 'Inter';
@@ -58,6 +66,7 @@
     background: #0278FE;
     border-radius: 4px;
     padding: 13px 20px; 
+    margin-bottom: 80px;
     color: #fff;
     width: 248px;
     height: 22px;
@@ -65,5 +74,6 @@
     text-align: center;
     border:none;
 
-    /* see how put all botton text in ONE line  */
 }
+.place__button:last-child{
+    margin-bottom: 92px;
