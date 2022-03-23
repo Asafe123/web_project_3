@@ -3,6 +3,9 @@
     grid-template-columns: 460px 1fr;
     grid-template-rows: auto auto 1fr;
     grid-gap: 48px 40px;
+    grid-template-areas:"title , website"
+                        "image , description"
+                        "button";
 }
 .place__title{
     font-family: 'Inter';
@@ -26,7 +29,6 @@
     margin: 0 0 8px 0;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-
 }
 .place__artist{
     font-family: 'inter';
@@ -41,6 +43,7 @@
     height: 460px;
     object-fit: cover;
     overflow:hidden;
+    /* grid-area: image; */
 }
 .place__paragraph{
     margin-top:0;
