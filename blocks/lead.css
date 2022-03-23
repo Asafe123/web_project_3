@@ -3,7 +3,7 @@
    align-items: center; 
 }
 .lead__title{
-    font-family: 'Inter';
+    font-family: 'Inter','arial', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -13,7 +13,7 @@
     max-width:793px;
 }
 .lead__subtitle{
-    font-family: 'Inter';
+    font-family: 'Inter','arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -27,10 +27,16 @@
     max-width: 100%;
 }
 
-@media screen and (max-width: 1200px) {
-    .lead__title { max-width:720px}
-    .lead__subtitle {max-width: 720px;
-                     padding-bottom: 36px;}
+@media screen and (max-width: 800px) {
+    .lead__title { 
+        max-width:720px;
+        margin: 91px auto 36px auto;
+        padding: 0;
+    }
+    .lead__subtitle {
+        max-width: 720px;
+        padding-bottom: 36px;
+    }
     .lead__image {
         max-width: 100%;
         object-fit: fill;

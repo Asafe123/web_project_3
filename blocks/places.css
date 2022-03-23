@@ -2,3 +2,8 @@
     margin: 92px 0 12px 148px;
     padding:0;
 }
+@media screen and (max-width:800px) {
+    .places{
+        margin: 24px;
+    }
+}
