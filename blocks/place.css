@@ -74,7 +74,7 @@
     line-height: 22px;
     background: #0278FE;
     border-radius: 4px;
-    padding: 13px 20px; 
+    padding:13px 20px;
     margin-bottom: 80px;
     color: #fff;
     max-width: 208px;
@@ -101,23 +101,23 @@
     .place__image{
         max-width: 340px;
         max-height: 340px;
-    }   
+    }
 }
 @media screen and (max-width:700px){
     .place{
         grid-template-columns: 1fr;
-        grid-template-columns: repeat(8 , 1fr); 
+        grid-template-columns: repeat(8 , 1fr);
         grid-template-areas:
-    "title" 
+    "title"
     "website"
-    "image" 
+    "image"
     "paragraph"
-    "button";      
+    "button";
     }
     .place__title{
         width: 288px;
         font-size: 32px;
-        line-height: 35px; 
+        line-height: 35px;
     }
     .place__website{
         width:288px;
