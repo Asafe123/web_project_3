@@ -28,6 +28,6 @@
         padding: 0 16px;    
     }
     .photo-grid__item{
-        width: calc(100%-32px);
+        width: calc(100% - 32px);
     }
 }
