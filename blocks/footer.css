@@ -1,18 +1,17 @@
-.footer{
-
+.footer {
 }
-.footer__copyrights{
-    font-family: 'Inter','arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    text-align-last: center;
-    margin: 0;
-    padding: 88px 0 24px 0;
+.footer__copyrights {
+  font-family: "Inter", "arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align-last: center;
+  margin: 0;
+  padding: 88px 0 24px 0;
 }
-@media screen and (max-width:400px){
-    .footer__copyrights{
-        padding: 64px 0 24px 0;
-    }
+@media screen and (max-width: 400px) {
+  .footer__copyrights {
+    padding: 64px 0 24px 0;
+  }
 }
