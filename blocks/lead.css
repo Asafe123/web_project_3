@@ -10,7 +10,7 @@
   line-height: 100px;
   padding: 91px 0 32px 0;
   margin: 0 auto;
-  max-width: 793px;
+  max-width: 100%;
 }
 .lead__subtitle {
   font-family: "Inter", "arial", sans-serif;
@@ -41,7 +41,7 @@
     height: auto;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 510px) {
   .lead__title {
     margin: 50px auto 16px auto;
     font-size: 40px;
