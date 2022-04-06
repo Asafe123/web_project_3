@@ -16,6 +16,7 @@
   font-size: 72px;
   line-height: 76px;
   margin: 0;
+  align-self: end;
   grid-area: title;
 }
 .place__website {
@@ -135,16 +136,23 @@
 @media screen and (max-width: 400px) {
   .place {
     max-width: 320px;
+    grid-gap: 0px 40px;
   }
   .place__title {
     max-width: 288px;
     padding-left: 16px;
+    padding-bottom: 30px;
   }
   .place__website {
     padding-left: 16px;
+    padding-bottom: 30px;
   }
-  .place__paragraph {
-    padding: 16px;
+  .place__description {
+    padding: 30px 16px;
+  }
+  .place__paragraph:first-child {
+    padding-bottom: 25px;
+    margin: 0;
   }
   .place__button {
     margin: 0 auto;

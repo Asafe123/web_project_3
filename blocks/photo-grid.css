@@ -1,7 +1,7 @@
 .photo-grid {
   max-width: 1184px;
   margin: 0 auto;
-  padding: 0 48px;
+  padding: 0 16px;
 }
 .photo-grid__list {
   display: grid;
@@ -22,17 +22,12 @@
   }
   .photo-grid__list {
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-    padding: 0;
   }
   .photo-grid__item {
     justify-self: stretch;
   }
 }
 @media screen and (max-width: 735px) {
-  .photo-grid__list {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0;
-  }
   .photo-grid__item {
     justify-self: stretch;
   }
@@ -40,12 +35,9 @@
 @media screen and (max-width: 400px) {
   .photo-grid {
     max-width: 288px;
-    margin: 0 auto;
   }
   .photo-grid__list {
-    grid-template-columns: 1fr;
     gap: 12px;
-    padding: 0;
   }
   .photo-grid__item {
     max-width: 284px;
