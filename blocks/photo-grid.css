@@ -27,11 +27,6 @@
     justify-self: stretch;
   }
 }
-@media screen and (max-width: 735px) {
-  .photo-grid__item {
-    justify-self: stretch;
-  }
-}
 @media screen and (max-width: 400px) {
   .photo-grid__list {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
